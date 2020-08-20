@@ -1,0 +1,104 @@
+---
+author: tallguyjenks
+date: '`r format(Sys.Date())`'
+title: Plant_Stuff
+output:
+  html_document:
+    toc_float: true
+    theme: darkly
+    highlight: zenburn
+    toc: true
+    toc_depth: 6.0
+    code_download: true
+    number_sections: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                       warning = F,
+                      message = F)
+```
+
+```{r lib_loading}
+# Package names
+packages <- c(
+"tidyverse",#################################### Tidyverse packages
+"here",######################################### Directory management
+"DT", "kableExtra",############################# Table libs
+"tidylog",###################################### Feedback on Dplyr verbs
+"tidytext"
+	     )
+
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+
+```{r data_import}
+# Get the Data
+
+# Read in with tidytuesdayR package 
+# Install from CRAN via: install.packages("tidytuesdayR")
+# This loads the readme and all the datasets for the week of interest
+
+# Either ISO-8601 date or year/week works!
+
+tuesdata <- tidytuesdayR::tt_load('2020-08-18')
+
+plants <- tuesdata$plants
+threats <- tuesdata$threats
+actions <- tuesdata$actions
+
+```
+
+```{r data_viz}
+
+# Plants ----
+
+head(plants)
+
+plants %>% 
+  dplyr::filter(country == "United States") %>% 
+  dplyr::filter(threat_HID == 1)
+
+
+unique(plants$year_last_seen)
+
+
+plants %>% 
+  dplyr::filter(year_last_seen == "Before 1900") %>% 
+  dplyr::count(continent, country, sort=T)
+
+plants %>% 
+  dplyr::count(continent, country, sort=T)
+
+plot_me <- plants %>% 
+  dplyr::count(continent, sort=T)
+
+ggplot(plot_me) +
+ aes(x = continent, weight = n) +
+ geom_bar(fill = "#0c4c8a") +
+ theme_minimal()
+
+model_data <- plants %>% 
+  dplyr::select(action_LP,threat_HID) 
+
+lm(threat_HID ~ action_LP, data = model_data)
+
+
+
+# Threats ----
+
+
+
+# Actions ----
+
+```
+
