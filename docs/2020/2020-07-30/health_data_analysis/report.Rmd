@@ -1,0 +1,79 @@
+---
+title: "health_data_report"
+author: "Bryan Jenks"
+date: "7/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libs}
+library(magrittr)
+# Package names
+packages <- c(
+"tidyverse",#################################### Tidyverse packages
+"here",######################################### Directory management
+"knitr", "rmarkdown",########################### RMD libs
+"todor", "lintr",############################### Code management libs
+"DT", "kableExtra",############################# Table libs
+"roxygen2", "testthat", "usethis", "devtools", # package libs
+"tidylog",####################################### Feedback on Dplyr verbs
+"esquisse"
+	     )
+
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+```{r load_data}
+source(here::here("R","get_data.R")) 
+```
+# Boundries 
+
+In this i will figure out what is the time range for the data results of my training data
+
+```{r}
+data %>% 
+  filter(date %in% c(max(data$date),min(data$date))) %>% 
+  select(date) %>% 
+  unique()
+  
+```
+
+
+```{r}
+data %>% 
+  select(exercise) %>% 
+   filter(!(exercise %in% c("pushup", "bridge", "wall squat", "Superman Hold", 
+"Superman", "Superman (Flutter Kicks)"))) %>%
+  unique()
+```
+
+```{r}
+# exercises <- c("forearm roller","pistol squat (lvl 2)")
+exercises <- c("calf raise","calf raise (Red)","calf raise (Black)")
+data %>%
+ filter(!(exercise %in% c("pushup", "bridge", "wall squat", "Superman Hold", 
+"Superman", "Superman (Flutter Kicks)"))) %>%
+  filter(exercise %in% exercises) %>% 
+  # filter(set_number == 1) %>% 
+ ggplot() +
+ aes(x = date, y = reps_numerator, fill = set_number) +
+ geom_line(size = 1L, colour = "#2171b5") +
+ scale_fill_gradient() +
+ theme_minimal() +
+ theme(legend.position = "top") +
+ facet_wrap(vars(exercise))
+
+```
+
+

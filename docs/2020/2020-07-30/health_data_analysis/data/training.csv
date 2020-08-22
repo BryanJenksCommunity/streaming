@@ -1,0 +1,439 @@
+date,exercise,set_number,reps_numerator,reps_denominator
+2020-06-01,pushup,1,10,10
+2020-06-01,pushup,2,9,10
+2020-06-01,pushup,3,5,10
+2020-06-01,Kettlebell Rows,1,8,8
+2020-06-01,Kettlebell Rows,2,8,8
+2020-06-01,Kettlebell Rows,3,8,8
+2020-06-01,dip shrugs,1,8,8
+2020-06-01,dip shrugs,2,8,8
+2020-06-01,scapular pushups,1,8,8
+2020-06-01,scapular pushups,2,8,8
+2020-06-01,bridge,1,15,30
+2020-06-01,bridge,2,15,30
+2020-06-01,ladder set,1,5,5
+2020-06-01,ladder set,2,3,3
+2020-06-01,ladder set,3,1,1
+2020-06-01,wall slides,1,6,6
+2020-06-01,wall slides,2,6,6
+2020-06-02,pistol squat,1,12,12
+2020-06-02,pistol squat,2,12,12
+2020-06-02,glute ham hinge,1,12,12
+2020-06-02,glute ham hinge,2,12,12
+2020-06-02,wall squat,1,30,30
+2020-06-02,wall squat,2,30,30
+2020-06-02,calf raise,1,30,30
+2020-06-02,calf raise,2,20,30
+2020-06-02,bent leg calf raise,1,20,20
+2020-06-02,bent leg calf raise,2,20,20
+2020-06-02,ladder set,1,5,5
+2020-06-02,ladder set,2,3,3
+2020-06-02,ladder set,3,1,1
+2020-06-03,(N) pushup,1,6,6
+2020-06-03,(N) pushup,2,6,6
+2020-06-03,Kettlebell Rows,1,8,8
+2020-06-03,Kettlebell Rows,2,8,8
+2020-06-03,Kettlebell Rows,3,8,8
+2020-06-03,dip shrugs,1,8,8
+2020-06-03,dip shrugs,2,8,8
+2020-06-03,scapular pushups,1,8,8
+2020-06-03,scapular pushups,2,8,8
+2020-06-03,bridge,1,30,30
+2020-06-03,bridge,2,30,30
+2020-06-03,ladder set,1,5,5
+2020-06-03,ladder set,2,3,3
+2020-06-03,ladder set,3,1,1
+2020-06-03,wall slides,1,6,6
+2020-06-03,wall slides,2,6,6
+2020-06-03,band curls (black),1,16,20
+2020-06-03,band curls (black),2,20,20
+2020-06-03,band curls (black),3,20,20
+2020-06-08,pushup,1,10,10
+2020-06-08,pushup,2,10,10
+2020-06-08,pushup,3,6,10
+2020-06-08,Kettlebell Rows,1,8,8
+2020-06-08,Kettlebell Rows,2,8,8
+2020-06-08,Kettlebell Rows,3,8,8
+2020-06-08,dip shrugs,1,8,8
+2020-06-08,dip shrugs,2,8,8
+2020-06-08,scapular pushups,1,8,8
+2020-06-08,scapular pushups,2,8,8
+2020-06-08,bridge,1,30,30
+2020-06-08,bridge,2,30,30
+2020-06-08,ladder set,1,7,7
+2020-06-08,ladder set,2,5,5
+2020-06-08,ladder set,3,3,3
+2020-06-09,pistol squat,1,12,12
+2020-06-09,pistol squat,2,12,12
+2020-06-09,glute ham hinge,1,12,12
+2020-06-09,glute ham hinge,2,12,12
+2020-06-09,wall squat,1,45,45
+2020-06-09,wall squat,2,30,30
+2020-06-09,calf raise,1,30,30
+2020-06-09,calf raise,2,25,30
+2020-06-09,bent leg calf raise,1,20,20
+2020-06-09,bent leg calf raise,2,20,20
+2020-06-09,ladder set,1,7,7
+2020-06-09,ladder set,2,5,5
+2020-06-09,ladder set,3,3,3
+2020-06-10,(N) pushup,1,6,6
+2020-06-10,(N) pushup,2,6,6
+2020-06-10,Kettlebell Rows,1,8,8
+2020-06-10,Kettlebell Rows,2,8,8
+2020-06-10,Kettlebell Rows,3,8,8
+2020-06-10,dip shrugs,1,8,8
+2020-06-10,dip shrugs,2,8,8
+2020-06-10,scapular pushups,1,8,8
+2020-06-10,scapular pushups,2,8,8
+2020-06-10,bridge,1,60,60
+2020-06-10,bridge,2,30,30
+2020-06-10,ladder set,1,7,7
+2020-06-10,ladder set,2,5,5
+2020-06-10,ladder set,3,3,3
+2020-06-10,Superman Hold,1,30,30
+2020-06-10,Superman Hold,2,30,30
+2020-06-10,band curls (black),1,15,15
+2020-06-10,band curls (black),2,15,15
+2020-06-10,band curls (black),3,15,15
+2020-06-10,wall slides,1,6,6
+2020-06-10,wall slides,2,6,6
+2020-06-11,pistol squat (lvl 2),1,7,12
+2020-06-11,pistol squat (lvl 2),2,6,12
+2020-06-11,pistol squat (lvl 2),3,6,12
+2020-06-11,glute ham hinge,1,12,12
+2020-06-11,glute ham hinge,2,12,12
+2020-06-11,glute ham hinge,3,12,12
+2020-06-11,wall squat,1,60,60
+2020-06-11,wall squat,2,30,30
+2020-06-11,wall squat,3,60,60
+2020-06-11,calf raise,1,30,30
+2020-06-11,calf raise,2,30,30
+2020-06-11,bent leg calf raise,1,20,20
+2020-06-11,bent leg calf raise,2,20,20
+2020-06-11,ladder set,1,7,7
+2020-06-11,ladder set,2,5,5
+2020-06-11,ladder set,3,3,3
+2020-06-11,forearm roller,1,1,1
+2020-06-11,forearm roller,2,1,1
+2020-06-11,forearm roller,3,1,1
+2020-06-12,band curls (Purple),1,15,15
+2020-06-12,band curls (Purple),2,15,15
+2020-06-12,band curls (Purple),3,15,15
+2020-06-12,pushup,1,10,10
+2020-06-12,pushup,2,10,10
+2020-06-12,pushup,3,8,10
+2020-06-12,Kettlebell Band Rows (Purple),1,8,8
+2020-06-12,Kettlebell Band Rows (Purple),2,8,8
+2020-06-12,Kettlebell Band Rows (Purple),3,8,8
+2020-06-12,dip shrugs,1,8,8
+2020-06-12,dip shrugs,2,8,8
+2020-06-12,scapular pushups (Red),1,8,8
+2020-06-12,scapular pushups (Red),2,8,8
+2020-06-12,bridge,1,45,45
+2020-06-12,forearm roller,1,2,2
+2020-06-12,forearm roller,2,1,1
+2020-06-12,forearm roller,3,1,1
+2020-06-12,ladder set,1,7,7
+2020-06-12,ladder set,2,5,5
+2020-06-12,ladder set,3,3,3
+2020-06-12,wall slides,1,6,6
+2020-06-12,wall slides,2,6,6
+2020-06-12,Compressives,1,1,1
+2020-06-12,Compressives,2,1,1
+2020-06-15,band curls (Purple),1,15,15
+2020-06-15,band curls (Purple),2,15,15
+2020-06-15,band curls (Purple),3,15,15
+2020-06-15,pushup,1,10,10
+2020-06-15,pushup,2,10,10
+2020-06-15,pushup,3,8,10
+2020-06-15,Kettlebell Band Rows (Purple),1,8,8
+2020-06-15,Kettlebell Band Rows (Purple),2,8,8
+2020-06-15,Kettlebell Band Rows (Purple),3,8,8
+2020-06-15,dip shrugs,1,8,8
+2020-06-15,dip shrugs,2,8,8
+2020-06-15,scapular pushups (Red),1,8,8
+2020-06-15,scapular pushups (Red),2,8,8
+2020-06-15,Superman,1,45,60
+2020-06-15,Superman,2,45,60
+2020-06-15,forearm roller,1,2,2
+2020-06-15,forearm roller,2,2,2
+2020-06-15,forearm roller,3,1,1
+2020-06-15,ladder set,1,7,7
+2020-06-15,ladder set,2,5,5
+2020-06-15,ladder set,3,3,3
+2020-06-15,wall slides,1,6,6
+2020-06-15,wall slides,2,6,6
+2020-06-15,titanium ankles,1,1,1
+2020-06-15,titanium ankles,2,1,1
+2020-06-15,titanium ankles,3,1,1
+2020-06-15,Compressives,1,1,1
+2020-06-15,Compressives,2,1,1
+2020-06-15,Compressives,3,1,1
+2020-06-17,band curls (Purple),1,6,6
+2020-06-17,band curls (Purple),2,6,6
+2020-06-17,band curls (Purple),3,6,6
+2020-06-17,(N) pushup,1,6,6
+2020-06-17,(N) pushup,2,6,6
+2020-06-17,(N) pushup,3,6,6
+2020-06-17,Kettlebell Band Rows (Purple),1,8,8
+2020-06-17,Kettlebell Band Rows (Purple),2,8,8
+2020-06-17,Kettlebell Band Rows (Purple),3,8,8
+2020-06-17,dip shrugs,1,8,8
+2020-06-17,dip shrugs,2,8,8
+2020-06-17,scapular pushups (Black),1,8,8
+2020-06-17,scapular pushups (Black),2,8,8
+2020-06-17,Superman,1,60,60
+2020-06-17,Superman,2,60,60
+2020-06-17,forearm roller,1,2,2
+2020-06-17,forearm roller,2,2,2
+2020-06-17,forearm roller,3,1,1
+2020-06-17,wall slides,1,6,6
+2020-06-17,wall slides,2,6,6
+2020-06-15,Compressives,1,1,1
+2020-06-15,Compressives,2,1,1
+2020-06-15,Compressives,3,1,1
+2020-06-17,ladder set,1,7,7
+2020-06-17,ladder set,2,5,5
+2020-06-17,ladder set,3,3,3
+2020-06-18,pistol squat (lvl 2),1,8,12
+2020-06-18,pistol squat (lvl 2),2,7,12
+2020-06-18,pistol squat (lvl 2),3,6,12
+2020-06-18,glute ham hinge (1 Leg),1,12,12
+2020-06-18,glute ham hinge (1 Leg),2,12,12
+2020-06-18,glute ham hinge (1 Leg),3,12,12
+2020-06-18,calf raise,1,30,30
+2020-06-18,calf raise,2,30,30
+2020-06-18,calf raise,3,30,30
+2020-06-18,bent leg calf raise,1,20,20
+2020-06-18,bent leg calf raise,2,20,20
+2020-06-18,titanium ankles,1,1,1
+2020-06-18,titanium ankles,2,1,1
+2020-06-18,titanium ankles,3,1,1
+2020-06-15,Compressives,1,1,1
+2020-06-15,Compressives,2,1,1
+2020-06-15,Compressives,3,1,1
+2020-06-18,ladder set,1,10,10
+2020-06-18,ladder set,2,7,7
+2020-06-18,ladder set,3,5,5
+2020-06-19,band curls (Green),1,10,10
+2020-06-19,band curls (Green),2,10,10
+2020-06-19,band curls (Green),3,10,10
+2020-06-19,pushup,1,10,10
+2020-06-19,pushup,2,10,10
+2020-06-19,pushup,3,10,10
+2020-06-19,Kettlebell Band Rows (Green),1,8,8
+2020-06-19,Kettlebell Band Rows (Green),2,8,8
+2020-06-19,Kettlebell Band Rows (Green),3,8,8
+2020-06-19,dip shrugs,1,8,8
+2020-06-19,dip shrugs,2,8,8
+2020-06-19,scapular pushups (Black),1,8,8
+2020-06-19,scapular pushups (Black),2,8,8
+2020-06-19,Superman,1,60,60
+2020-06-19,Superman,2,60,60
+2020-06-19,forearm roller,1,2,2
+2020-06-19,forearm roller,2,2,2
+2020-06-19,forearm roller,3,2,2
+2020-06-19,wall slides,1,6,6
+2020-06-19,wall slides,2,6,6
+2020-06-19,titanium ankles,1,1,1
+2020-06-19,titanium ankles,2,1,1
+2020-06-19,titanium ankles,3,1,1
+2020-06-19,Compressives,1,1,1
+2020-06-19,Compressives,2,1,1
+2020-06-19,Compressives,3,1,1
+2020-06-19,ladder set,1,10,10
+2020-06-19,ladder set,2,7,7
+2020-06-19,ladder set,3,5,5
+2020-06-22,band curls (Green),1,10,10
+2020-06-22,band curls (Green),2,10,10
+2020-06-22,band curls (Green),3,10,10
+2020-06-22,pushup,1,10,10
+2020-06-22,pushup,2,10,10
+2020-06-22,pushup,3,6,10
+2020-06-22,Kettlebell Band Rows (Blue),1,8,8
+2020-06-22,Kettlebell Band Rows (Blue),2,8,8
+2020-06-22,Kettlebell Band Rows (Blue),3,8,8
+2020-06-22,dip shrugs,1,8,8
+2020-06-22,dip shrugs,2,8,8
+2020-06-22,scapular pushups (Black),1,8,8
+2020-06-22,scapular pushups (Black),2,8,8
+2020-06-22,Superman,1,60,60
+2020-06-22,Superman,2,60,60
+2020-06-22,forearm roller,1,2,2
+2020-06-22,forearm roller,2,2,2
+2020-06-22,forearm roller,3,2,2
+2020-06-22,wall slides,1,6,6
+2020-06-22,wall slides,2,6,6
+2020-06-22,titanium ankles,1,1,1
+2020-06-22,titanium ankles,2,1,1
+2020-06-22,titanium ankles,3,1,1
+2020-06-22,Compressives,1,1,1
+2020-06-22,Compressives,2,1,1
+2020-06-22,Compressives,3,1,1
+2020-06-22,ladder set,1,10,10
+2020-06-22,ladder set,2,7,7
+2020-06-22,ladder set,3,5,5
+2020-06-23,pistol squat (lvl 2),1,11,12
+2020-06-23,pistol squat (lvl 2),2,9,12
+2020-06-23,pistol squat (lvl 2),3,8,12
+2020-06-23,glute ham hinge (1 Leg),1,12,12
+2020-06-23,glute ham hinge (1 Leg),2,12,12
+2020-06-23,glute ham hinge (1 Leg),3,12,12
+2020-06-23,calf raise (Red),1,30,30
+2020-06-23,calf raise (Red),2,30,30
+2020-06-23,calf raise (Red),3,30,30
+2020-06-23,bent leg calf raise,1,20,20
+2020-06-23,bent leg calf raise,2,20,20
+2020-06-23,titanium ankles,1,1,1
+2020-06-23,titanium ankles,2,1,1
+2020-06-23,titanium ankles,3,1,1
+2020-06-23,Compressives,1,1,1
+2020-06-23,Compressives,2,1,1
+2020-06-23,Compressives,3,1,1
+2020-06-23,ladder set,1,10,10
+2020-06-23,ladder set,2,7,7
+2020-06-23,ladder set,3,5,5
+2020-06-24,Chin ups,1,2,10
+2020-06-24,Chin ups,2,2,10
+2020-06-24,Chin ups,3,2,10
+2020-06-24,(N) pushup,1,6,10
+2020-06-24,(N) pushup,2,6,10
+2020-06-24,(N) pushup,3,6,10
+2020-06-24,Kettlebell Band Rows (Green),1,8,8
+2020-06-24,Kettlebell Band Rows (Green),2,8,8
+2020-06-24,Kettlebell Band Rows (Green),3,8,8
+2020-06-24,dip shrugs,1,8,8
+2020-06-24,dip shrugs,2,8,8
+2020-06-24,scapular pushups (Black),1,8,8
+2020-06-24,scapular pushups (Black),2,8,8
+2020-06-24,Superman,1,60,60
+2020-06-24,Superman,2,60,60
+2020-06-24,forearm roller,1,3,3
+2020-06-24,forearm roller,2,2,2
+2020-06-24,forearm roller,3,2,2
+2020-06-24,wall slides,1,6,6
+2020-06-24,wall slides,2,6,6
+2020-06-24,Compressives,1,1,1
+2020-06-24,Compressives,2,1,1
+2020-06-24,Compressives,3,1,1
+2020-06-24,ladder set,1,10,10
+2020-06-24,ladder set,2,7,7
+2020-06-24,ladder set,3,5,5
+2020-06-25,pistol squat (lvl 2),1,12,12
+2020-06-25,pistol squat (lvl 2),2,10,12
+2020-06-25,pistol squat (lvl 2),3,9,12
+2020-06-25,glute ham hinge (1 Leg),1,12,12
+2020-06-25,glute ham hinge (1 Leg),2,12,12
+2020-06-25,glute ham hinge (1 Leg),3,12,12
+2020-06-25,calf raise (Black),1,30,30
+2020-06-25,calf raise (Black),2,30,30
+2020-06-25,calf raise (Black),3,25,30
+2020-06-25,bent leg calf raise,1,20,20
+2020-06-25,bent leg calf raise,2,20,20
+2020-06-25,titanium ankles,1,1,1
+2020-06-25,titanium ankles,2,1,1
+2020-06-25,titanium ankles,3,1,1
+2020-06-25,Ab Rollouts,1,1,1
+2020-06-25,Ab Rollouts,2,1,1
+2020-06-25,Ab Rollouts,3,1,1
+2020-06-25,Compressives,1,1,1
+2020-06-25,Compressives,2,1,1
+2020-06-25,Compressives,3,1,1
+2020-06-25,ladder set,1,10,10
+2020-06-25,ladder set,2,7,7
+2020-06-25,ladder set,3,5,5
+2020-06-26,Chin ups,1,2,10
+2020-06-26,Chin ups,2,2,10
+2020-06-26,Chin ups,3,2,10
+2020-06-26,(N) pushup,1,6,10
+2020-06-26,(N) pushup,2,6,10
+2020-06-26,(N) pushup,3,6,10
+2020-06-26,Kettlebell Band Rows (Green),1,8,8
+2020-06-26,Kettlebell Band Rows (Green),2,8,8
+2020-06-26,Kettlebell Band Rows (Green),3,8,8
+2020-06-26,dip shrugs,1,8,8
+2020-06-26,dip shrugs,2,8,8
+2020-06-26,scapular pushups (Black),1,8,8
+2020-06-26,scapular pushups (Black),2,8,8
+2020-06-26,Superman (Flutter Kicks),1,60,60
+2020-06-26,Superman (Flutter Kicks),2,60,60
+2020-06-26,forearm roller,1,3,3
+2020-06-26,forearm roller,2,2,2
+2020-06-26,forearm roller,3,2,2
+2020-06-26,wall slides,1,6,6
+2020-06-26,wall slides,2,6,6
+2020-06-26,Ab Rollouts,1,1,1
+2020-06-26,Ab Rollouts,2,1,1
+2020-06-26,Ab Rollouts,3,1,1
+2020-06-26,Compressives,1,1,1
+2020-06-26,Compressives,2,1,1
+2020-06-26,Compressives,3,1,1
+2020-06-26,ladder set,1,10,10
+2020-06-26,ladder set,2,7,7
+2020-06-26,ladder set,3,5,5
+
+2020-06-29,pushup,1,100,100
+2020-06-29,titanium ankles,1,1,1
+2020-06-29,titanium ankles,2,1,1
+2020-06-29,titanium ankles,3,1,1
+2020-06-29,Ab Rollouts,1,1,1
+2020-06-29,Ab Rollouts,2,1,1
+2020-06-29,Ab Rollouts,3,1,1
+2020-06-29,Compressives,1,1,1
+2020-06-29,Compressives,2,1,1
+2020-06-29,Compressives,3,1,1
+2020-06-29,ladder set,1,10,10
+2020-06-29,ladder set,2,7,7
+2020-06-29,ladder set,3,5,5
+2020-06-30,pushup,1,100,100
+2020-06-30,titanium ankles,1,1,1
+2020-06-30,titanium ankles,2,1,1
+2020-06-30,titanium ankles,3,1,1
+2020-06-30,Ab Rollouts,1,1,1
+2020-06-30,Ab Rollouts,2,1,1
+2020-06-30,Ab Rollouts,3,1,1
+2020-06-30,Compressives,1,1,1
+2020-06-30,Compressives,2,1,1
+2020-06-30,Compressives,3,1,1
+2020-06-30,ladder set,1,10,10
+2020-06-30,ladder set,2,7,7
+2020-06-30,ladder set,3,5,5
+2020-07-01,pushup,1,100,100
+2020-07-01,titanium ankles,1,1,1
+2020-07-01,titanium ankles,2,1,1
+2020-07-01,titanium ankles,3,1,1
+2020-07-01,Ab Rollouts,1,1,1
+2020-07-01,Ab Rollouts,2,1,1
+2020-07-01,Ab Rollouts,3,1,1
+2020-07-01,Compressives,1,1,1
+2020-07-01,Compressives,2,1,1
+2020-07-01,Compressives,3,1,1
+2020-07-01,ladder set,1,10,10
+2020-07-01,ladder set,2,7,7
+2020-07-01,ladder set,3,5,5
+2020-07-02,pushup,1,100,100
+2020-07-02,titanium ankles,1,1,1
+2020-07-02,titanium ankles,2,1,1
+2020-07-02,titanium ankles,3,1,1
+2020-07-02,Ab Rollouts,1,1,1
+2020-07-02,Ab Rollouts,2,1,1
+2020-07-02,Ab Rollouts,3,1,1
+2020-07-02,Compressives,1,1,1
+2020-07-02,Compressives,2,1,1
+2020-07-02,Compressives,3,1,1
+2020-07-02,ladder set,1,10,10
+2020-07-02,ladder set,2,7,7
+2020-07-02,ladder set,3,5,5
+2020-07-03,pushup,1,100,100
+2020-07-03,titanium ankles,1,1,1
+2020-07-03,titanium ankles,2,1,1
+2020-07-03,titanium ankles,3,1,1
+2020-07-03,Ab Rollouts,1,1,1
+2020-07-03,Ab Rollouts,2,1,1
+2020-07-03,Ab Rollouts,3,1,1
+2020-07-03,Compressives,1,1,1
+2020-07-03,Compressives,2,1,1
+2020-07-03,Compressives,3,1,1
+2020-07-03,ladder set,1,10,10
+2020-07-03,ladder set,2,7,7
+2020-07-03,ladder set,3,5,5

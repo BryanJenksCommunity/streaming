@@ -1,0 +1,261 @@
+---
+title: "Fatness Over 9000"
+author: "Bryan Jenks"
+date: "7/30/2020"
+output: 
+  flexdashboard::flex_dashboard:
+    vertical_layout: scroll
+    theme: bootstrap
+    orientation: rows
+    source_code: embed
+    social: [ "twitter", "facebook", "menu" ]
+    runtime: shiny
+    navbar:
+      - { title: "About", href: "https://www.bryanjenks.xyz",   align: left }
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r load_libs, echo=F}
+library(magrittr)
+# Package names
+packages <- c("here", "DT", "kableExtra", "tidylog", "esquisse",
+              "flexdashboard", "readr", "ggplot2", "plotly")
+
+# Install packages not yet installed
+installed_packages <- packages %in% rownames(installed.packages())
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Packages loading
+lapply(packages, library, character.only = TRUE) %>%
+  invisible()
+```
+
+```{r load_data, echo=F}
+source(here::here("R", "get_data.R"))
+```
+
+# Charts
+
+YEET 
+
+Page 1 {data-navmenu="Menu A" .hidden}
+=====================================
+
+
+Page 2 {data-navmenu="Menu A" data-icon="fa-list"}
+=====================================  
+
+Sidebar {.sidebar}
+=====================================
+
+
+
+Link to [Page 3](#page-3)
+
+Page 3 {data-navmenu="Menu B" data-icon="fa-hashtag"}
+=====================================
+
+You can link to a dashboard page with either of the following syntaxes:
+
+[Page 2]
+
+[Page Two](#page-2)
+
+The second syntax is used when you want a custom name for the link 
+(rather than just using the page title).
+
+Page 4 {data-navmenu="Menu B" data-icon="fa-list"}
+=====================================  
+
+Row {.tabset .tabset-fade data-height=650}
+-------------------------------------
+    
+### Chart 1
+    
+```{r echo=F}
+exercises <- c("calf raise", "calf raise (Red)", "calf raise (Black)")
+plotly_test <- data %>%
+ filter(!(exercise %in% c("pushup", "bridge", "wall squat", "Superman Hold",
+"Superman", "Superman (Flutter Kicks)"))) %>%
+  filter(exercise %in% exercises) %>%
+  # filter(set_number == 1) %>%
+ ggplot() +
+ aes(x = date, y = reps_numerator, fill = set_number) +
+ geom_line(size = 1L, colour = "#2171b5") +
+ scale_fill_gradient() +
+ theme_minimal() +
+ theme(legend.position = "top") +
+ facet_wrap(vars(exercise))
+
+ggplotly(plotly_test)
+```
+
+### Chart 1b
+
+```{r}
+  ggplot2::diamonds %>%
+  dplyr::filter(cut == "Ideal",
+                price > 10000L) %>%
+  DT::datatable()
+```
+
+### Chart 1c
+
+```{r echo=F}
+flexdashboard::valueBox(max(mtcars$mpg), icon = "fa-pencil")
+```
+
+Row 
+-------------------------------------
+    
+### Chart 2
+    
+```{r echo=F}
+
+data %>%
+ filter(exercise %in% c("pushup", "pistol squat", "pistol squat (lvl 2)")) %>%
+ filter(reps_numerator >= 1L & reps_numerator <= 56L) %>%
+ filter(reps_denominator >= 1L & reps_denominator <= 58L) %>%
+ ggplot() +
+ aes(x = date, y = reps_numerator, colour = reps_numerator) +
+ geom_line(size = 1L) +
+ scale_color_gradient() +
+ labs(x = "Time", y = "Rep Count", title = "Facet Pistol SQ and Pushups",
+      subtitle = "Pushups sans 100 rep aggregated set due to scale skew",
+      caption = "One Month of Training Data", color = "Reps") +
+ theme_minimal() +
+ facet_wrap(vars(exercise))
+
+```
+    
+### Chart 3
+
+```{r echo=F}
+data %>%
+ filter(exercise %in% c("pistol squat (lvl 2)", "pistol squat")) %>%
+ filter(reps_numerator >= 1L & reps_numerator <= 56L) %>%
+ filter(reps_denominator >= 1L & reps_denominator <= 58L) %>%
+ ggplot() +
+ aes(x = reps_numerator, y = reps_denominator, fill = reps_numerator) +
+ geom_tile(size = 1L) +
+ scale_fill_gradient() +
+ labs(x = "Time", y = "Rep Count", title = "Facet Pistol SQ and Pushups",
+      subtitle = "Pushups sans 100 rep aggregated set due to scale skew",
+      caption = "One Month of Training Data") +
+ theme_minimal() +
+ facet_wrap(vars(exercise))
+```
+
+Row 
+-------------------------------------
+
+### MUH DATA
+
+```{r}
+  ggplot2::diamonds %>%
+  dplyr::filter(cut == "Ideal",
+                price > 10000L) %>%
+  DT::datatable()
+```
+
+# Gauges
+
+Row 
+-------------------------------------
+    
+### Contact Rate
+
+```{r echo=F}
+rate <- 91L
+gauge(rate, min = 0, max = 100, symbol = "%", gaugeSectors(
+  success = c(80, 100), warning = c(40, 79), danger = c(0, 39)
+), href = "#Page 2")
+```
+
+### Average Rating 
+
+```{r echo=F}
+rating <- 37.4
+gauge(rating, min = 0, max = 50, gaugeSectors(
+  success = c(41, 50), warning = c(21, 40), danger = c(0, 20)
+))
+```
+
+### Cancellations
+
+```{r echo=F}
+cancellations <- 7
+gauge(cancellations, min = 0, max = 10, gaugeSectors(
+  success = c(0, 2), warning = c(3, 6), danger = c(7, 10)
+))
+```
+
+Row
+-------------------------------------
+
+### About dygraphs
+
+This example makes use of the dygraphs R package. The dygraphs
+package provides rich facilities for charting time-series data 
+in R. You can use dygraphs at the R console, within R Markdown
+documents, and within Shiny applications.
+
+### About Me
+
+This example makes use of the dygraphs R package. The dygraphs
+package provides rich facilities for charting time-series data 
+in R. You can use dygraphs at the R console, within R Markdown
+documents, and within Shiny applications.
+
+### About Lorum Ipsum
+
+This example makes use of the dygraphs R package. The dygraphs
+package provides rich facilities for charting time-series data 
+in R. You can use dygraphs at the R console, within R Markdown
+documents, and within Shiny applications.
+
+
+# Shiny
+
+Column {.sidebar}
+-----------------------------------------------------------------------
+
+Waiting time between eruptions and the duration of the eruption for the
+Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
+
+```{r}
+selectInput("n_breaks", label = "Number of bins:",
+            choices = c(10, 20, 35, 50), selected = 20)
+
+sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+            min = 0.2, max = 2, value = 1, step = 0.2)
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Geyser Eruption Duration
+
+```{r}
+renderPlot({
+  hist(faithful$eruptions, probability = TRUE,
+       breaks = as.numeric(input$n_breaks),
+       xlab = "Duration (minutes)", main = "Geyser Eruption Duration")
+  dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+  lines(dens, col = "blue")
+})
+```
+
+# Hot Data
+
+```{r}
+fileInput("file1", "Choose CSV File", multiple = FALSE, accept = NULL,
+  width = NULL, buttonLabel = "Browse...",
+  placeholder = "No file selected")
+```
+
