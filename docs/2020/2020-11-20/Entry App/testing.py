@@ -1,30 +1,17 @@
 #!/usr/local/bin/python3.9
 
+import tkinter as tk
+from tkinter import ttk
 
-from tkinter import *
 
-class Window(Frame):
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.master = master
 
-        menu = Menu(self.master)
-        self.master.config(menu=menu)
 
-        fileMenu = Menu(menu)
-        fileMenu.add_command(label="Item")
-        fileMenu.add_command(label="Exit", command=self.exitProgram)
-        menu.add_cascade(label="File", menu=fileMenu)
+ttk.Label(tab2,
+          text="Lets dive into the\
+world of computers").grid(column=0,
+                          row=0,
+                          padx=30,
+                          pady=30)
 
-        editMenu = Menu(menu)
-        editMenu.add_command(label="Undo")
-        editMenu.add_command(label="Redo")
-        menu.add_cascade(label="Edit", menu=editMenu)
-
-    def exitProgram(self):
-        exit()
-
-root = Tk()
-app = Window(root)
-root.wm_title("Tkinter window")
 root.mainloop()
+

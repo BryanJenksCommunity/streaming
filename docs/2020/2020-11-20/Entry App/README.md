@@ -31,7 +31,7 @@
                 - [ ] input location for UID with value checking for integer only
                 - [ ] confirm button for deletion
 - [ ] update
-    - [ ] Update Record button
+    - [x] Update Record button
         - [ ] show a menu of existing records
             - [ ] store the previous state of the record data for `undo` functionality
             - [ ] showing the assigned UIDs and take a UID as input for which record to update
@@ -40,10 +40,11 @@
                     - [ ] new input menu for 6 integer fields for times not date, date is chosen based on UID selection and this is to update so we are only updating integer values
                     - [ ] error checking that no values go too high like hours > 24
 - [ ] visualize
-    - [ ] button to show visualizations
+    - [x] button to show visualizations
             - [ ] use matplotlip.pyplot to show chart visuals of productivity
     - [ ] button to return to previous state (hide charts show normal menu)
     - [ ] MAYBE using plotly for interactive visuals
-- [ ] Undo function
+- [ ] Undo functionality
+    - [x] undo button
     - [ ] write the stored prior record data to a dot file .prior_record to access or overwrite as needed
     
