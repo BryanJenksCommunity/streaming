@@ -1,50 +1,27 @@
 # Goals
 
-- [ ] read,write,search and replace values in a CSV
+- [x] read,write, values in a CSV
 - [ ] provide a copy of the Norse font with links and attributions in the app
-- [ ] Landing menu of buttons and an Image
+- [x] Landing menu of buttons and an Image
     - [x] Image
-    - [ ] buttons
+    - [x] buttons
     - [x] label
-- [ ] Add new entries
+- [x] Add new entries
     - [x] Add Entry button
-        - [ ] Takes the values from input fields
-            - [ ] add new record to the data table
-            - [ ] duplicate checking, if record for that date already exists then add values to existing record accounting for time (60sec increments)
-                - [ ] store original value if duplicate entry was updated, so we can use `undo` functionality
-    - [ ] entry fields for
-        - [ ] error checking the data types (date format = "YYYY-MM-DD") and no floats
-        - [ ] validate integer inputs so that the values match time increments and no hours > 24 type of validation
-        - [ ] UID (hidden until using `delete` function)
-        - [ ] date
-        - [ ] productive hours
-        - [ ] productive Minutes
-        - [ ] productive Seconds
-        - [ ] un-productive hours
-        - [ ] un-productive Minutes
-        - [ ] un-productive Seconds 
-- [ ] delete
-    - [x] Delete Record button
-        - [ ] show a menu of existing records
-            - [ ] store the last deleted records data for `undo` functionality
-            - [ ] showing the assigned UIDs and take a UID as input for which record to delete
-                - [ ] input location for UID with value checking for integer only
-                - [ ] confirm button for deletion
-- [ ] update
-    - [x] Update Record button
-        - [ ] show a menu of existing records
-            - [ ] store the previous state of the record data for `undo` functionality
-            - [ ] showing the assigned UIDs and take a UID as input for which record to update
-                - [ ] input location for UID with value checking for integer only
-                - [ ] confirm button for deletion
-                    - [ ] new input menu for 6 integer fields for times not date, date is chosen based on UID selection and this is to update so we are only updating integer values
-                    - [ ] error checking that no values go too high like hours > 24
+        - [x] Takes the values from input fields
+            - [x] add new record to the data table
+            - [x] duplicate checking, if record for that date already exists then add values to existing record accounting for time (60sec increments)
+    - [x] entry fields for
+        - [x] date
+        - [x] productive hours
+        - [x] productive Minutes
+        - [x] productive Seconds
+        - [x] un-productive hours
+        - [x] un-productive Minutes
+        - [x] un-productive Seconds 
 - [ ] visualize
     - [x] button to show visualizations
             - [ ] use matplotlip.pyplot to show chart visuals of productivity
     - [ ] button to return to previous state (hide charts show normal menu)
     - [ ] MAYBE using plotly for interactive visuals
-- [ ] Undo functionality
-    - [x] undo button
-    - [ ] write the stored prior record data to a dot file .prior_record to access or overwrite as needed
-    
+
