@@ -18,7 +18,8 @@ from PIL import Image, ImageTk
 import pandas as pd
 from datetime import datetime
 
-df = pd.read_csv('../test.csv')
+dataFile = '../clocktime.csv'
+df = pd.read_csv(dataFile)
 today = datetime.today().strftime('%m/%d/%y')
 
 def clickAddEntry():
@@ -70,7 +71,7 @@ def clickSubmitRecord():
 
         newdf = df.append(newRecord, ignore_index=True)
         # The final overwrite of the CSV
-        newdf.to_csv('../test.csv', index=False)
+        newdf.to_csv(dataFile, index=False)
 
     # Clear the entry fields after a successful writing to the data file
     inputProdSeconds.delete(0, 'end')
