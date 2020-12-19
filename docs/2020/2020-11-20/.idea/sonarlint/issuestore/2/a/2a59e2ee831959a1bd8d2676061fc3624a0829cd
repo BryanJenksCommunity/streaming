@@ -1,6 +1,5 @@
 
-vpython:S1542"WRename function "clickSubmitRecord" to match the regular expression ^[a-z_][a-z0-9_]*$.(éÙÊž8ŽËÜ†ã.
-kpython:S1192"LDefine a constant instead of duplicating this literal '../test.csv' 3 times.(ô¸š8ºóß§å.
-wpython:S1542"SRename function "clickAddEntry" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÉòëŒùÿÿÿÿ8€…û…ã.
-}python:S117="ZRename this local variable "newRecord" to match the regular expression ^[_a-z][a-z0-9_]*$.(’ã«­üÿÿÿÿ8‘Êß§å.
-Cpython:S125ê"Remove this commented out code.(±£¢õÿÿÿÿÿ8ä÷¬ˆã.
+wpython:S1542"SRename function "clickAddEntry" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÉòëŒùÿÿÿÿ8€…û…ã.
+Cpython:S125ë"Remove this commented out code.(±£¢õÿÿÿÿÿ8¬¢Îºç.
+}python:S117>"ZRename this local variable "newRecord" to match the regular expression ^[_a-z][a-z0-9_]*$.(’ã«­üÿÿÿÿ8‘Êß§å.
+vpython:S1542"WRename function "clickSubmitRecord" to match the regular expression ^[a-z_][a-z0-9_]*$.(éÙÊž8ŽËÜ†ã.
